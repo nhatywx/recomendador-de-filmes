@@ -1,0 +1,22 @@
+html, body {
+  margin: 30px;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+html, body {
+  margin: 30px;
+  padding: 0;
+  background-color: rgb(221,233,251);
+}
+canvas {
+  display: block;
+}
+function setup() {
+  createCanvas(800, 400);
+  createElement("h2", "Recomendador de filmes");
+  createSpan("Sua idade:");
+  campoIdade = createInput("5");
+  campoFantasia = createCheckbox("Gosta de fantasia?");
+}
